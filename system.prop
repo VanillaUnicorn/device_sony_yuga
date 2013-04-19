@@ -5,3 +5,11 @@ ro.telephony.default_network=9
 
 # Graphics
 ro.sf.lcd_density=480
+
+#hardware info
+ro.device.chipset=Qualcomm APQ8064 (S4 Pro)
+ro.device.cpu=1.5 GHz quad-core Krait
+ro.device.gpu=Adreno 320
+ro.device.rear_cam=13 MP Exmor RS
+ro.device.front_cam=2 MP
+ro.device.screen_res=1280x1920
