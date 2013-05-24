@@ -30,6 +30,8 @@ PRODUCT_PACKAGES := \
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Common Sony Resources
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, device/sony/common/resources-xxhdpi.mk)
 
 # Inherit from yuga device
