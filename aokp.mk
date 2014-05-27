@@ -1,8 +1,8 @@
 # Inherit common product files.
-$(call inherit-product, vendor/aokp/configs/common.mk)
+$(call inherit-product, vendor/vanilla/configs/common.mk)
 
 # Inherit GSM common stuff
-$(call inherit-product, vendor/aokp/configs/gsm.mk)
+$(call inherit-product, vendor/vanilla/configs/gsm.mk)
 
 # Inherit AOSP device configuration for yuga
 $(call inherit-product-if-exists, device/sony/yuga/full_yuga.mk)
